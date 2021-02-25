@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 .footer {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .fa {
-    font-size: 25px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 15px;
     margin: 5px;
-    width: 65px;
+    /* width: 65px; */
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
