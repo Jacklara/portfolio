@@ -73,6 +73,9 @@ return (
             Head="contact me"
           />
           <Form />
+          <br />
+          <br />
+          <br />
           <Footer />
         </section>
       </div>

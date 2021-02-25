@@ -36,7 +36,7 @@ div.card-container {
 
 .about-pic {
   border: solid 2px #01C2CB;
-  border-radius: 50%;
+  border-radius: 10%;
   box-sizing: border-box;
   width: 500px;
   margin: 50px;
