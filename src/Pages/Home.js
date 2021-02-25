@@ -8,11 +8,25 @@ import ScrollArrow from '../components/ScrollArrow/ScrollArrow';
 import Head from '../components/Head/Head';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
+import { SiHtml5 } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiNodeDotJs } from 'react-icons/si';
+import { ArrowForward, ArrowRight, Button } from '../components/PageButton/PageButton';
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
       setIsOpen(!isOpen)
+
+  };
+
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
   };
 
 return (
@@ -36,6 +50,22 @@ return (
           <Head 
             Head="Skills"
           />
+          <ul>
+            <li><SiHtml5 /> HTML</li>
+            <li><SiCss3 /> CSS</li>
+            <li><SiJavascript /> JavaScript</li>
+            <li><SiNodeDotJs /> Node JS</li>
+            <li><SiReact /> React</li>
+          </ul>
+          <Button 
+                  to='resume'
+                  onMouseEnter={onHover}
+                  onMouseLeave={onHover}
+                  primary='true'
+                  dark='true'
+                >
+                  Resume {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button >
         </section>
 
         <section className="home-container2 home-image">
