@@ -38,44 +38,44 @@ return (
           <ScrollArrow />
         </section>
 
-        <section className="home-container2 home-image">
+        <section className="home-container2">
           <About />
         </section>
 
-        <section className="home-container2 home-image">
+        <section className="home-container3">
           <Portfolio />
         </section>
 
-        <section className="home-container2 home-image">
-          <Head 
-            Head="Skills"
-          />
-          <ul>
-            <li><SiHtml5 /> HTML</li>
-            <li><SiCss3 /> CSS</li>
-            <li><SiJavascript /> JavaScript</li>
-            <li><SiNodeDotJs /> Node JS</li>
-            <li><SiReact /> React</li>
-          </ul>
-          <Button 
-                  to='resume'
-                  onMouseEnter={onHover}
-                  onMouseLeave={onHover}
-                  primary='true'
-                  dark='true'
-                >
-                  Resume {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button >
-        </section>
-
-        <section className="home-container2 home-image">
-          <Head 
-            Head="contact me"
-          />
-          <Form />
-          <br />
-          <br />
-          <br />
+        <section>
+          <div className="home-container4">
+            <div>
+            <Head 
+              Head="Skills"
+            />
+            <ul>
+              <li><SiHtml5 /> HTML</li>
+              <li><SiCss3 /> CSS</li>
+              <li><SiJavascript /> JavaScript</li>
+              <li><SiNodeDotJs /> Node JS</li>
+              <li><SiReact /> React</li>
+            </ul>
+            <Button 
+                    to='resume'
+                    onMouseEnter={onHover}
+                    onMouseLeave={onHover}
+                    primary='true'
+                    dark='true'
+                  >
+                    Resume {hover ? <ArrowForward /> : <ArrowRight />}
+            </Button >
+            </div>
+            <div>
+            <Head 
+              Head="Contact Me"
+            />
+            <Form />
+            </div>
+          </div>
           <Footer />
         </section>
       </div>
