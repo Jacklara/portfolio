@@ -2,7 +2,6 @@ import React from 'react';
 import Head from '../components/Head/Head';
 import '../components/Card/Card.css';
 import about from '../img/about.jpg'
-import '../components/Card/Card.css'
 
 function About() {
     return (

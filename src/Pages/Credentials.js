@@ -4,6 +4,7 @@ import resume from '../img/resume.png'
 import Footer from '../components/Footer/Footer';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
+import '../components/Card/Card.css';
 
 const Credentials = () => {
     const [isOpen, setIsOpen] = useState(false);

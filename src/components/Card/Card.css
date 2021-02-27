@@ -35,7 +35,6 @@ div.card-container {
 }
 
 .about-pic {
-  border: solid 2px #01C2CB;
   border-radius: 10%;
   box-sizing: border-box;
   width: 500px;
@@ -49,6 +48,7 @@ p {
   margin: 100px;
   padding: 10px;
   max-width: 800px;
+  text-align: left;
 }
 
 @media screen and (max-width: 1200px) {
