@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import '../App.css';
 import Head from '../components/Head/Head';
 import resume from '../img/resume.png'
 import Footer from '../components/Footer/Footer';

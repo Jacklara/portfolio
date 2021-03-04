@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Card from '../components/Card/Card';
 import Head from '../components/Head/Head';
-import ecommerece from '../img/ecommerece.png'
+import ecommerece from '../img/ecommerece.png';
+import elAmigo from '../img/elAmigo.png';
+import gateway from '../img/gateway.png';
+import safehaven from '../img/safehaven.png';
 import { ArrowForward, ArrowRight, Button } from '../components/PageButton/PageButton';
 import '../components/Card/Card.css'
 
@@ -22,23 +25,23 @@ const Portfolio = () => {
                 <div className='port-card'>
                     <Card 
                     img={ecommerece}
-                    title='eCommerece Project'
-                    description='E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.'
+                    title='eCommerece Project V2'
+                    description='My second iteration of my eCommerece sight using React'
                     />
                     <Card 
-                    img={ecommerece}
-                    title='eCommerece Project'
-                    description='E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.'
+                    img={elAmigo}
+                    title='Reservations App'
+                    description='HTML and CSS used to create a reservation form'
                     />
                     <Card 
-                    img={ecommerece}
-                    title='eCommerece Project'
-                    description='E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.'
+                    img={gateway}
+                    title='Gateway'
+                    description='Adding semantic HTML to Gateway project'
                     />
                     <Card 
-                    img={ecommerece}
-                    title='eCommerece Project'
-                    description='E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.'
+                    img={safehaven}
+                    title='Safe Haven'
+                    description='Group Hackathon using HTML and CSS'
                     />
                     
                 </div>

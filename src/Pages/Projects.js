@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Card from '../components/Card/Card';
 import Head from '../components/Head/Head';
 import ecommerece from '../img/ecommerece.png';
-import '../components/Card/Card.css'
+import '../components/Card/Card.css';
 import Footer from '../components/Footer/Footer';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
